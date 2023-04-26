@@ -1,0 +1,116 @@
+.aboutSocials--title:hover,
+.aboutUs--title:hover{
+  color: black;
+  background-color:transparent;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.aboutUs--title{
+  margin-top:8rem ;
+  padding: 5rem 0;
+  font-size: 3.5rem;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+
+  transition: 0.15s;
+  
+}
+.aboutUs--title span{
+  margin-left: 1rem;
+  
+
+}
+
+
+.aboutUs--ourTeam--title{
+  font-size: 3.5rem;
+}
+.aboutUs--ourTeam--title span{
+  font-size: 4rem;
+  font-weight: 400;
+  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aboutUs--box--wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  gap: 2.5rem;
+
+}
+.aboutUs--box{
+
+  padding: 3rem;
+  flex: 1 1 30rem;
+   max-width: 300px;
+  border:  .5px solid;
+  border-radius: 12px;
+  box-shadow: 0 0  5rem rgba(0, 0, 0, .1);
+
+
+}
+.aboutUs--box:hover{
+box-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, 1);
+ 
+
+}
+.aboutUs--team--members{
+  font-size: 2.5rem;
+}
+.aboutUs--team--members--text{
+  font-size: 1.5rem;
+  overflow-x: hidden;
+}
+
+
+/*about social handling styling*/
+
+.aboutSocials--title{
+  font-size: 2.4rem;
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+  padding: 2rem;
+  transition: 0.15s;
+}
+.aboutSocials--wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.aboutSocials--svg svg{
+  width: 100px;
+  border: 0.2rem solid rgba(0, 0, 0, .1);
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgb(203, 220, 221);
+  margin-bottom: 1rem;
+  
+}
+.aboutSocials--svg svg:hover{
+  box-shadow: .8rem  .8rem rgba(0, 0, 0, .1);
+  background-color: #fff;
+  }
+ 
+  .aboutSocials--name{
+    font-size: 2rem;
+    font-family: 'roboto','Times New Roman', Times, serif;
+    font-weight: 600;
+  }
+  .aboutSocials--name:hover{
+     text-decoration: underline;
+  }
